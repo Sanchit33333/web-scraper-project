@@ -38,8 +38,10 @@ cd web-scraper-project
 
 2. Backend Setup (Django)
 cd backend
-pip install -r requirements.txt
-python manage.py migrate
+.\venv\Scripts\activate
+pip install beautifulsoup4 requests
+pip install django djangorestframework django-cors-headers requests
+python manage.py runserver
 python manage.py runserver
 
 
