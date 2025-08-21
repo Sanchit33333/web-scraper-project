@@ -1,4 +1,4 @@
-# Web Scraper Portal (React + Django)
+# Web Scraper Portal (React + Python-Django)
 
 A ReactJS application with OAuth 2.0 authentication and a Python-Django backend for web scraping.  
 The app allows users to log in securely (Google OAuth), scrape data from a public website, and display it in a clean, responsive UI.  
